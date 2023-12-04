@@ -5,14 +5,23 @@ This study aims to develop a machine-learning model for predicting house prices 
 Methodology:
 
 Data Collection: The dataset, obtained from Kaggle, includes features such as location, size, number of bedrooms, and amenities. Download the dataset, and save it as a CSV file.
+
 Data Pre-processing: Utilize Pandas for reading and analyzing the CSV file, and address any missing or irrelevant data. Convert square feet data to integers.
+
 Data Cleaning: Apply appropriate methods, such as removing outliers based on business logic and standard deviation, to ensure a clean dataset.
+
 Feature Engineering: Develop new features like 'bhk' and 'price per square foot' for better model performance.
+
 Dimensionality Reduction: Reduce dimensionality to improve computational efficiency using techniques like aggregating locations.
+
 Hot Encoding: Use one-hot encoding to convert categorical data (e.g., 'location') into binary values.
+
 Model Building: Implement machine learning algorithms - Decision Trees, Random Forests - using Python in VS Code. Install necessary libraries such as Pandas, Numpy, and Matplotlib.
+
 Train-Test Splitting: Split the dataset into 80% for training the models and 20% for testing. Evaluate model performance using metrics like mean squared error, root mean squared error, and R-squared.
+
 Result Analysis: Analyze the results obtained from different models, including Linear Regression, Decision Tree, and Random Forest, with corresponding scores.
+
 Process:
 
 Download the dataset.
@@ -20,12 +29,13 @@ Install required libraries: Pandas, Numpy, Matplotlib.
 Execute the Python code in VS Code to implement Decision Trees, Random Forests, and other machine learning algorithms.
 Analyze the model's performance metrics using appropriate evaluation criteria.
 Visualize results through graphs and charts.
-Libraries to Install:
 
+Libraries to Install:
 Pandas
 Numpy
 Matplotlib
 Scikit-Learn (for machine learning algorithms)
+
 Download Required Files:
 
 Download the dataset.
